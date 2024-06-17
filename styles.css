@@ -1,0 +1,88 @@
+* {
+    margin-top: 0;
+}
+
+html,body{margin:0;padding:0}
+body{font: 76% arial,sans-serif;text-align:center}
+p{margin:0 10px 10px}
+a{padding:0px; text-decoration:none; color:#000000;}
+div#header{background-color:#F3F2ED;}
+div#header h1{height:80px;line-height:80px;margin:0;padding-left:0px;}
+div#container{text-align:left}
+div#content p{line-height:1.4}
+div#navigation{background:#F6F0E0;}
+div#navigation ul{margin:15px 0; padding:0; list-style-type:none;}
+div#navigation li{margin-bottom:5px;}
+div#extra{background:#CCC8B3;}
+div#footer{background:#BFBD93;} 
+div#footer p{margin:0;padding:5px 10px}
+div#container{width:700px;margin:0 auto}
+div#content{float:right;width:500px}
+div#navigation{float:left;width:200px}
+div#extra{float:right;width:500px}
+div#footer{clear:both;width:100%}
+
+#mainwindow {
+    margin-right: 10%;
+    margin-left: 25%;
+}
+
+#textwindow {
+    margin-right: 20%;
+    margin-left: 35%;
+    line-height: 1.6;
+    font-size: 18px;
+    text-align: left;
+}
+
+div {
+    text-align: center;
+    margin: auto;
+}
+th {
+    text-align: center;
+}
+table {
+    width: 100%;
+    align-self:center;
+}
+#tablediv {
+    border: 1px solid black;
+}
+th, td {
+    border-bottom: 1px solid black;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+li {
+    text-align: center;
+}
+li:last-child {
+    border-bottom: none;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 18px 26px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #7c8281;
+    color: white;
+}
+.active {
+    background-color: #7c8281;
+    color: white;
+}
